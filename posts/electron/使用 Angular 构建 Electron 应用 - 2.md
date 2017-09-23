@@ -1,3 +1,5 @@
+## 使用 Angular 构建 Electron 应用 - 2
+
 > 本文所有代码都可以在 [github](https://github.com/WittBulter/news-feed) 找到。你可以通过 commit 历史来查看这些代码是如何一步一步构建的。
 如果有任何问题，也可以在 github 的 issue 上提出。
 

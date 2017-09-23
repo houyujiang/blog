@@ -76,10 +76,8 @@ export class AppRoutingModule {
 并将它注册到 `app.component.ts` 中。具体代码如下：  
 
 
-```javascript
-
-import { Injectable } from '@angular/core
-
+```typescript
+import { Injectable } from '@angular/core'
 declare let electron: any
 
 @Injectable()
@@ -115,7 +113,6 @@ export class IpcRendererService {
     return this.ipcRenderer.sendSync(message, arguments)
   }
 }
-
 ```
 		  
 			

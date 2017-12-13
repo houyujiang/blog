@@ -1,0 +1,37 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "witt's blog",
+  "main": "index.js",
+  "scripts": {
+    "commit": "node_modules/commitizen/bin/commitizen init cz-conventional-changelog --save --save-exact",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WittBulter/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "front-end"
+  ],
+  "author": "WittBulter (nanazuimeng123@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WittBulter/blog/issues"
+  },
+  "homepage": "https://github.com/WittBulter/blog#readme",
+  "devDependencies": {
+    "@commitlint/config-angular": "^5.1.1",
+    "commitizen": "^2.9.6",
+    "commitlint": "^5.2.5",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^0.14.3",
+    "simpler-paper": "^0.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

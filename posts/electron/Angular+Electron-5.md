@@ -251,10 +251,10 @@ module.exports = {
 async 语法糖会给你带来极高的可读性！
 
 现在 news-feed 已经能够快速显示出数据库里的列表：
-![列表demo](http://static.wittsay.cc/angular-electron-demo2.png)
+![列表demo](assets/electron-demo-4.png)
 
 点击任何一项进入详情，文章内容都被 `sanitize.pipe` 过滤解析在 dom 里：
-![详情demo](http://static.wittsay.cc/angular-electron-demo1.png)
+![详情demo](assets/electron-demo-5.png)
 
 
 

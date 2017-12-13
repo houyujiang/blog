@@ -1,4 +1,4 @@
-## 使用 Angular 构建 Electron 应用 - 1.md
+## 使用 Angular 构建 Electron 应用 - 1
 
 
 
@@ -80,7 +80,7 @@ app.on('activate', _ => win === null&& createWindow())
   
 现在整体的项目结构应该像是这样:  
 
-![项目结构](https://github.com/WittBulter/blog/blob/master/assets/electron-demo-1.png)
+![项目结构](assets/electron-demo-1.png)
 
 现在先运行 `npm run watch` 开始编译 angular，再打开一个新的命令行窗口运行 `electron ./` 即可看到运行后的效果。
 怎么样，是不是很酷？

@@ -216,7 +216,7 @@ module.exports = new class Self extends Base {
 这里的 `global.Storage.count` 是一个权宜之计，在未来完全前端代码后再回过头来解决它，目前我们只需要在根目录的 `index.js` 里加入
  `require('./browser/task/index').ifeng.start()` 即可使它工作起来：
 
-![截图](http://static.wittsay.cc/QQ20170220-172131@2x%20%281%29.png)
+![截图](assets/electron-demo-3.png)
 
 OK，这一节的所有目标都已完成，下一节我们开始讨论如何在 Angular 中构建一个合理的展示模块并与数据库通信。
 

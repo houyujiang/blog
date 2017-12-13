@@ -56,7 +56,7 @@ export class AppRoutingModule {
  
  现在，我们为前端页面添加一些样式与逻辑，这此的 commit 记录在[这里](https://github.com/WittBulter/news-feed/tree/5374aaa4d678a5eb98fdbfce0dfcae94cd725ead)，现在我们需要为登录界面添加逻辑与路由保护。
  
- ![登录页面样式](http://obqqxnnm4.bkt.clouddn.com/QQ20170212-225327@2x.png)  
+ ![登录页面样式](assets/electron-demo-2.png)
  
  
  登录可以提交用户名与密码用作验证，这时候可以借助Angular的模板语法来快速的完成它们:  
